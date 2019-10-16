@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+    <style>
+     body{
+       font-family: 'Roboto Condensed', sans-serif;
+       background-image: url(./img/bk.png);
+       
+      }
+       
+    .me{
+     background-color: rgba(238, 198, 198, 0.411);
+     padding: 10px;
+    
+    }
+    </style>
+  </head>
+  <body>
+    <h1>WELCOME TO MY PAGE</h1>
+    <script type="text/javascript">
+    function leti() {
+        alert('Hello and welcome');
+        var num1= prompt("Enter your name");
+        document.write (" Hello " +  num1 );
+        document.write(" <br>");
+        document.write ( "Your assignment is to enter 2 integers and I will display the larger integer. Let's do it!!" );
+    }
+    leti()
+
+   function work(){
+         var a = prompt("Enter the first integer");
+         var b = prompt("Enter the second integer");
+
+        if (a > b) {
+          document.write( a );
+        } else if (a < b) {
+          document.write( b);
+        } else if (a = b) {
+          document.write("Same Integer");
+        } else {
+          document.write("Invalid!! input two intergers");
+        }
+      }
+       window.onclick = function () {
+          work();
+        };
+      
+    </script>
+    <h3 > Click <button class="me">START</button> </h3>
+    
+  </body>
+</html>
